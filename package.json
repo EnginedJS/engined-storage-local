@@ -1,0 +1,32 @@
+{
+  "name": "engined-storage-local",
+  "version": "0.0.1",
+  "description": "Local storage agent for engined",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnginedJS/engined-storage-local.git"
+  },
+  "keywords": [
+    "service",
+    "engined",
+    "storage"
+  ],
+  "engines": {
+    "node": ">=7.4"
+  },
+  "author": "Fred Chien <cfsghost@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnginedJS/engined-storage-local/issues"
+  },
+  "homepage": "https://github.com/EnginedJS/engined-storage-local#readme",
+  "dependencies": {
+    "engined": "0.0.2",
+    "fs-extra": "^4.0.1",
+    "progress-stream": "^2.0.0"
+  }
+}
