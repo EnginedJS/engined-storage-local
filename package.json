@@ -1,6 +1,6 @@
 {
   "name": "engined-storage-local",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Local storage agent for engined",
   "main": "index.js",
   "scripts": {
