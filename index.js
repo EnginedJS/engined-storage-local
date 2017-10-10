@@ -24,6 +24,8 @@ module.exports = (opts = {}) => class extends Service {
 
 	async stop() {
 
+		let storageManager = this.getContext().get('Storage');
+
 		storageManager.unregister(this.agentName);
 	}
 }
